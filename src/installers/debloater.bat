@@ -1,0 +1,20 @@
+@echo off
+echo Output is disabled. Edit the script to see output of the commands.
+powershell -Command "Get-AppxPackage -AllUsers *3DViewer* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *CandyCrushSaga* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *FarmVille2CountryEscape* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *BubbleWitch3Saga* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *DolbyAccess* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *MicrosoftSolitaireCollection* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *MixedRealityPortal* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *SkypeApp* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *XboxApp* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *YourPhone* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *GrooveMusic* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *MicrosoftNews* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *MyOffice* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *OneNote* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *Paint3D* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *People* | Remove-AppxPackage"
+powershell -Command "Get-AppxPackage -AllUsers *Weather* | Remove-AppxPackage"
+exit
