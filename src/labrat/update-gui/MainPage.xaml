@@ -4,10 +4,10 @@
              x:Class="UpdateApp.MainPage">
 
     <VerticalStackLayout Padding="10">
-        <Entry x:Name="urlEntry" Placeholder="Enter update URL" />
+        <Entry x:Name="urlEntry" Placeholder="Enter update package URL" />
         <Button Text="Update" Clicked="OnUpdateClicked" />
         <ProgressBar x:Name="downloadProgressBar" IsVisible="False" />
-        <Label x:Name="statusLabel" Text="Status: Waiting" />
+        <Label x:Name="statusLabel" Text="Status: Waiting.." />
     </VerticalStackLayout>
 
 </ContentPage>

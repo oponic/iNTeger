@@ -5,3 +5,7 @@ echo "WARNING: System is about to copy files to system32. An error in the progra
 pause
 ROBOCOPY "C:\temp\intutils\console" "C:\Windows\system32" /mir
 ROBOCOPY "C:\temp\intutils\real" "C:\Windows\integer" /mir
+echo "Do you want to remove all OOBE features from the OS?"
+pause
+del C:\Windows\system32\wwahost.exe
+exit
